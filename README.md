@@ -1,1 +1,1 @@
-## My First Java Program
+## Studying Java
