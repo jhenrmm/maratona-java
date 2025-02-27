@@ -35,4 +35,18 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
+
+    public boolean numeroParouImpar(int num){
+        if (num % 2 == 0){
+            return true;
+        }
+        return false;
+    }
+
+    public int[] listaNums(int[]numeros){
+        for (int i = 0; i< numeros.length; i++) {
+            numeros[i] *= 2;
+        }
+        return numeros;
+    }
 }
