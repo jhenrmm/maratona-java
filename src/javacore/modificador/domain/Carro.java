@@ -3,12 +3,11 @@ package javacore.modificador.domain;
 public class Carro {
     private String nome;
     private double velMax;
-    public static double velLim = 250;
+    private static double velLim = 250;
 
     public Carro(String nome, double velMax) {
         this.nome = nome;
         this.velMax = velMax;
-        this.velLim = velLim;
     }
 
     public void imprime(){
@@ -16,6 +15,14 @@ public class Carro {
         System.out.println("Nome "+this.nome);
         System.out.println("Velocidade máxima "+this.velMax);
         System.out.println("Velocidade Limite "+Carro.velLim);
+    }
+
+    public static void setVelLim(double velLim){
+        Carro.velLim = velLim;
+    }
+
+    public static double getVelLim(){
+        return velLim;
     }
 
     public String getNome() {
@@ -32,13 +39,5 @@ public class Carro {
 
     public void setVelMax(double velMax) {
         this.velMax = velMax;
-    }
-
-    public double getVelLim() {
-        return velLim;
-    }
-
-    public void setVelLim(double velLim) {
-        Carro.velLim = velLim;
     }
 }
