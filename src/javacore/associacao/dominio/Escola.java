@@ -19,7 +19,7 @@ public class Escola {
             return;
         }
         for (Professor professor : professores){
-            System.out.println(professor.getName());
+            System.out.println(professor.getNome());
         }
     }
 
