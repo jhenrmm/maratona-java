@@ -2,7 +2,6 @@ package javacore.Zgenerics.test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class WildCardTest02 {
     public static void main(String[] args) {
