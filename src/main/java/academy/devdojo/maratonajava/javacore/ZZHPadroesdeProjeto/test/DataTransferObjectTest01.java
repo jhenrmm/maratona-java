@@ -1,9 +1,6 @@
 package academy.devdojo.maratonajava.javacore.ZZHPadroesdeProjeto.test;
 
-import academy.devdojo.maratonajava.introdução.javacore.ZZHPadroesdeProjeto.dominio.*;
 import academy.devdojo.maratonajava.javacore.ZZHPadroesdeProjeto.dominio.*;
-import academy.devdojo.maratonajava.javacore.javacore.ZZHPadroesdeProjeto.dominio.*;
-import javacore.ZZHPadroesdeProjeto.dominio.*;
 
 public class DataTransferObjectTest01 {
     public static void main(String[] args) {
